@@ -69,15 +69,5 @@ Yuanhao Zhuo, Zixi Qin, Ling Qin, and Wanqing Li
 Accepted to the 35th International Joint Conference on Artificial Intelligence (IJCAI 2026).
 
 ## Contact
-For questions about the code, implementation, or reproducibility, please contact:
-
-Yuanhao Zhuo  
-University of Wollongong  
-yzhuo@uow.edu.au
-
-For questions about the paper, supervision, or correspondence, please contact:
-
-Wanqing Li  
-University of Wollongong  
-wanqing@uow.edu.au
+For questions about the code or implementation, please open an issue in this repository.
 
