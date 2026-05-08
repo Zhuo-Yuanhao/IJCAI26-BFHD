@@ -19,11 +19,35 @@ Additional experiment scripts, data-processing utilities, and extended analysis 
 
 ## Important note on data
 
-This repository does **not** redistribute any ADNI data, subject-level records, derived ADNI features, or other access-controlled clinical data.
+This repository does **not** redistribute any subject-level clinical data, ADNI data, derived ADNI features, or other dataset files used in the paper.
 
-Experiments involving the Alzheimer's Disease Neuroimaging Initiative (ADNI) require users to obtain access through the official ADNI data access process and comply with the ADNI Data Use Agreement. Researchers who wish to reproduce ADNI-based experiments should apply for ADNI access independently and run the provided code on their locally authorized data.
+### ADNI data
 
-For non-public clinical datasets used in the paper, access is subject to the corresponding data-use agreements and institutional approvals.
+Experiments involving the Alzheimer's Disease Neuroimaging Initiative (ADNI) require users to obtain access through the official ADNI/LONI data access process. ADNI data access is managed through the Image & Data Archive (IDA) at LONI, and users must review and agree to the ADNI Data Use Agreement before accessing the data.
+
+Relevant official links:
+
+- ADNI data access page: https://adni.loni.usc.edu/data-samples/adni-data/
+- ADNI Data Use Agreement / access application: https://ida.loni.usc.edu/collaboration/access/appApply.jsp?project=ADNI
+- ADNI documentation: https://adni.loni.usc.edu/help-faqs/adni-documentation/
+- ADNI acknowledgement list: http://adni.loni.usc.edu/wp-content/uploads/how_to_apply/ADNI_Acknowledgement_List.pdf
+
+Researchers who wish to reproduce ADNI-based experiments should apply for ADNI access independently, comply with the ADNI Data Use Agreement, and run the provided code only on data that they are authorized to access locally.
+
+When using ADNI data in a manuscript, users should also follow the official ADNI manuscript citation and acknowledgement requirements. In particular, ADNI requests that manuscripts using ADNI data include appropriate ADNI attribution language and refer to the complete ADNI investigator list.
+
+### ADHD dataset
+
+The ADHD-related dataset used in the paper is not redistributed in this repository. It is associated with the following study:
+
+Fu, Y., Qin, Z., Qin, L., Zhang, H., Liu, H., Huang, S., & Li, D. (2025).  
+Multidimensional factors associated with ADHD core symptoms in children: cognition, sleep, behavior, and demographics.  
+*Frontiers in Psychiatry*, 16, 1658202.  
+https://doi.org/10.3389/fpsyt.2025.1658202
+
+For questions about access to this dataset, please contact the corresponding author of the above article.
+
+Users are responsible for ensuring that any use of ADNI, ADHD-related, or other clinical data complies with the corresponding data-use agreements, ethical approvals, and institutional requirements.
 
 ## Supplementary technical material
 
