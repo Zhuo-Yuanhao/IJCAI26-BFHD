@@ -12,8 +12,8 @@ This repository is under active preparation for the camera-ready release.
 
 At the current stage, we provide the key implementation components required to reproduce the core BFHD mechanism, including:
 
-- bidirectional feature harmonization with output-level gating;
-- feasibility-based recoverable measurement selection.
+- bidirectional feature harmonization with output-level gating (key code for our implementation);
+- synthetic data generation code.
 
 Additional experiment scripts, data-processing utilities, and extended analysis code will be released progressively where permitted.
 
