@@ -59,28 +59,12 @@ The supplementary material is provided as additional technical documentation for
 
 ## Code structure
 
-```text
-BFHD/
-  README.md
-  src/
-    bfhd/
-      ...
-  configs/
-    ...
-  supplementary.pdf
-  requirements.txt
-```
+To be done.
 
 The initial release focuses on the core BFHD components. Some project-specific training and data-processing code depends on access-controlled datasets or external project infrastructure and is therefore not included in this initial release.
 
 ## Usage
 Example usage will be added as the repository is finalized.
-
-The intended workflow is:
-
-1. obtain the relevant dataset through the appropriate official data access process;
-2. preprocess the data according to the protocol described in the paper and supplementary material;
-3. run the BFHD training and feature-recoverability selection code on the locally authorized data.
 
 ## Citation
 
@@ -90,7 +74,7 @@ If you use this repository before the official citation is available, please cit
 
 **BFHD: Bidirectional Feature Harmonization Decomposition for Heterogeneous Clinical Assessments**  
 Yuanhao Zhuo, Zixi Qin, Ling Qin, and Wanqing Li  
-Accepted to the 35th International Joint Conference on Artificial Intelligence (IJCAI 2026).
+Accepted to the 35th International Joint Conference on Artificial Intelligence (IJCAI-ECAI 2026).
 
 ## Contact
 For questions about the code or implementation, please open an issue in this repository.
