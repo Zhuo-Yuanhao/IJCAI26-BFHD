@@ -366,44 +366,40 @@ class EarlyStopper:
 @dataclass
 class TrainConfig:
     # architecture
-    hidden_x: Tuple[int, ...] = (64, 64, 32, 32)
-    hidden_y: Tuple[int, ...] = (64, 64, 32, 32)
-    gate_droprate_init: float = 0.65
-    gate_temperature: float = 1.0 / 8.0
-
-    # dims
-    error_dim_num: int = 0  # keep for compatibility with your prior preprocessing
+    hidden_x: Tuple[int, ...] = 
+    hidden_y: Tuple[int, ...] = 
+    gate_droprate_init: float = 
+    gate_temperature: float = 
 
     # epochs
-    epochs_stage1: int = 20000
-    epochs_stage2: int = 50000
-    epochs_stage3: int = 10000
+    epochs_stage1: int = 
+    epochs_stage2: int = 
+    epochs_stage3: int = 
 
     # early stop
-    patience_stage1: int = 3000
-    patience_stage2: int = 1000
-    patience_stage3: int = 800
-    warmup_stage1: int = 350
-    warmup_stage2: int = 10
-    warmup_stage3: int = 0
-    min_delta: float = 1e-6
+    patience_stage1: int = 
+    patience_stage2: int =
+    patience_stage3: int = 
+    warmup_stage1: int = 
+    warmup_stage2: int = 
+    warmup_stage3: int = 
+    min_delta: float =
 
     # learning rates
-    lr_backbone: float = 5e-5
-    lr_gate: float = 5e-3
-    weight_decay: float = 0.0
+    lr_backbone: float = 
+    lr_gate: float = 
+    weight_decay: float =
 
-    # Example: [(300, 1e-5, 1e-3), (1000, 1e-5, 5e-4)]
-    stage2_lr_milestones: Tuple[Tuple[int, float, float], ...] = ((300, 1e-5, 1e-3), (1000, 1e-5, 5e-4))
+    stage2_lr_milestones: Tuple[Tuple[int, float, float], ...] = 
 
     # loss hyperparams
-    lam_close: float = 0.1
-    eps_start: float = 2.0
-    eps_target: float = 0.3
-    gate_hard_threshold: float = 0.5
+    lam_close: float = 
+    eps_start: float = 
+    eps_target: float = 
+    gate_hard_threshold: float = 
 
     # evaluation
-    ccc_threshold: float = 0.6
+    ccc_threshold: float = 
 
 
 def linear_anneal(start: float, end: float, t: int, T: int) -> float:
