@@ -1,21 +1,41 @@
 # BFHD: Bidirectional Feature Harmonization Decomposition
 
-This repository provides code and supplementary technical materials for our IJCAI paper:
+This repository provides code and supplementary technical materials for our IJCAI-ECAI 2026 paper:
 
 **BFHD: Bidirectional Feature Harmonization Decomposition for Heterogeneous Clinical Assessments**
 
 BFHD formulates clinical assessment harmonization as a bidirectional recoverability problem. Given paired observations from two heterogeneous assessment systems, the method identifies measurements that can be reliably translated in both directions under an application-defined feasibility tolerance, while separating non-translatable components.
 
+**Project materials:** [Poster (PDF)](presentation/BFHD_IJCAI26_poster.pdf) · Supplementary Technical Material *(next update)* · Presentation slides *(after the oral presentation)*
+
+## Poster
+
+<p align="center">
+  <a href="presentation/BFHD_IJCAI26_poster.pdf">
+    <img src="presentation/BFHD_IJCAI26_poster_preview.jpg" alt="BFHD IJCAI-ECAI 2026 poster" width="100%">
+  </a>
+</p>
+
+<p align="center">
+  <a href="presentation/BFHD_IJCAI26_poster.pdf"><strong>View / download the IJCAI-ECAI 2026 poster (PDF)</strong></a>
+</p>
+
 ## Repository status
 
-This repository is under active preparation for the camera-ready release.
+This repository is being progressively cleaned and expanded for the public research release. The current snapshot contains the key implementation components required to reproduce the core BFHD mechanism, together with the synthetic data generator and the conference poster.
 
-At the current stage, we provide the key implementation components required to reproduce the core BFHD mechanism, including:
+The next planned update is a reorganized version of the **Supplementary Technical Material**, followed by a cleaner and more complete preliminary research code release with expanded docstrings, configuration notes, and usage documentation. Presentation slides will be added after the oral presentation.
 
-- bidirectional feature harmonization with output-level gating (key code for our implementation);
-- synthetic data generation code.
+## Release roadmap / TODO
 
-Additional experiment scripts, data-processing utilities, and extended analysis code will be released progressively where permitted.
+- [√] Release the repository scaffold and core BFHD implementation.
+- [√] Release the synthetic data generator.
+- [√] Add the IJCAI-ECAI 2026 poster (PDF + README preview).
+- [ ] Upload the reorganized **Supplementary Technical Material**.
+- [ ] Release the cleaned preliminary full codebase for experiments that can be shared under the relevant data-use constraints.
+- [ ] Expand docstrings, configuration descriptions, and runnable usage examples.
+- [ ] Add the presentation slides (PDF) after the oral presentation.
+- [ ] Update the citation with the official proceedings metadata / DOI when available.
 
 ## Important note on data
 
@@ -49,9 +69,9 @@ For questions about access to this dataset, please contact the corresponding aut
 
 Users are responsible for ensuring that any use of ADNI, ADHD-related, or other clinical data complies with the corresponding data-use agreements, ethical approvals, and institutional requirements.
 
-## Supplementary technical material
+## Supplementary Technical Material
 
-Additional implementation details, hyperparameter settings, experimental protocols, and extended results are provided in:
+A reorganized version of the Supplementary Technical Material will be uploaded in the next repository update. It will collect additional implementation details, hyperparameter settings, experimental protocols, and extended results in a cleaner reproducibility-oriented format.
 
 - `supplementary.pdf`  *(to be added / updated)*
 
@@ -64,18 +84,13 @@ To be done.
 The initial release focuses on the core BFHD components. Some project-specific training and data-processing code depends on access-controlled datasets or external project infrastructure and is therefore not included in this initial release.
 
 ## Usage
+
 Example usage will be added as the repository is finalized.
 
 ## Citation
 
-Citation information will be added once the official proceedings version is available.
-
-If you use this repository before the official citation is available, please cite the paper as:
-
-**BFHD: Bidirectional Feature Harmonization Decomposition for Heterogeneous Clinical Assessments**  
-Yuanhao Zhuo, Zixi Qin, Ling Qin, and Wanqing Li  
-Accepted to the 35th International Joint Conference on Artificial Intelligence (IJCAI-ECAI 2026).
+Citation information will be updated once the official proceedings version is available.
 
 ## Contact
-For questions about the code or implementation, please open an issue in this repository.
 
+For questions about the code or implementation, please open an issue in this repository.
