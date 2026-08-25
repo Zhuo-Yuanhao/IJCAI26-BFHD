@@ -6,7 +6,7 @@ This repository provides code and supplementary technical materials for our IJCA
 
 BFHD formulates clinical assessment harmonization as a bidirectional recoverability problem. Given paired observations from two heterogeneous assessment systems, the method identifies measurements that can be reliably translated in both directions under an application-defined feasibility tolerance, while separating non-translatable components.
 
-**Project materials:** [Poster (PDF)](presentation/BFHD_IJCAI26_poster.pdf) · Supplementary Technical Material *(next update)* · Presentation slides *(after the oral presentation)*
+**Project materials:** [Poster (PDF)](presentation/BFHD_IJCAI26_poster.pdf) · Presentation slides [slides (PDF)](presentation/slides.pdf)· Supplementary Technical Material *(next update)* 
 
 ## Poster
 
@@ -31,10 +31,10 @@ The next planned update is a reorganized version of the **Supplementary Technica
 - [√] Release the repository scaffold and core BFHD implementation.
 - [√] Release the synthetic data generator.
 - [√] Add the IJCAI-ECAI 2026 poster (PDF + README preview).
+- [√] Add the presentation slides (PDF) after the oral presentation.
 - [ ] Upload the reorganized **Supplementary Technical Material**.
 - [ ] Release the cleaned preliminary full codebase for experiments that can be shared under the relevant data-use constraints.
 - [ ] Expand docstrings, configuration descriptions, and runnable usage examples.
-- [ ] Add the presentation slides (PDF) after the oral presentation.
 - [ ] Update the citation with the official proceedings metadata / DOI when available.
 
 ## Important note on data
