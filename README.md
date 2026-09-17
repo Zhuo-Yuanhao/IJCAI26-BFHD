@@ -8,6 +8,30 @@ BFHD formulates clinical assessment harmonization as a bidirectional recoverabil
 
 **Project materials:** [Poster (PDF)](presentation/BFHD_IJCAI26_poster.pdf) · Presentation slides [slides (PDF)](presentation/slides.pdf)· Supplementary Technical Material *(next update)* 
 
+## Paper & Citation
+The paper is now available in the official **IJCAI 2026 Proceedings**:
+
+**Yuanhao Zhuo, Zixi Qin, Ling Qin, and Wanqing Li.**  
+*BFHD: Bidirectional Feature Harmonization Decomposition for Heterogeneous Clinical Assessments.*  
+Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence (IJCAI-26), pp. 7046–7054, 2026.
+
+**DOI:** [10.24963/ijcai.2026/784](https://doi.org/10.24963/ijcai.2026/784)
+
+If you find BFHD useful in your research, please cite our paper:
+
+```bibtex
+@inproceedings{zhuo2026bfhd,
+  title     = {{BFHD}: Bidirectional Feature Harmonization Decomposition for Heterogeneous Clinical Assessments},
+  author    = {Zhuo, Yuanhao and Qin, Zixi and Qin, Ling and Li, Wanqing},
+  booktitle = {Proceedings of the Thirty-Fifth International Joint Conference on
+               Artificial Intelligence, {IJCAI-26}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  pages     = {7046--7054},
+  year      = {2026},
+  doi       = {10.24963/ijcai.2026/784},
+}
+```
+
 ## Poster
 
 <p align="center">
@@ -89,22 +113,6 @@ The initial release focuses on the core BFHD components. Some project-specific t
 
 Example usage will be added as the repository is finalized.
 
-## Citation
-
-If you find BFHD useful in your research, please cite our paper:
-
-```bibtex
-@inproceedings{zhuo2026bfhd,
-  title     = {BFHD: Bidirectional Feature Harmonization Decomposition for Heterogeneous Clinical Assessments},
-  author    = {Zhuo, Yuanhao and Qin, Zixi and Qin, Ling and Li, Wanqing},
-  booktitle = {Proceedings of the Thirty-Fifth International Joint Conference on
-               Artificial Intelligence, {IJCAI-26}},
-  publisher = {International Joint Conferences on Artificial Intelligence Organization},
-  pages     = {7046--7054},
-  year      = {2026},
-  doi       = {10.24963/ijcai.2026/784},
-}
-```
 
 ## Contact
 
