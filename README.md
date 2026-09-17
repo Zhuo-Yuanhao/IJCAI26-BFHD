@@ -22,9 +22,11 @@ BFHD formulates clinical assessment harmonization as a bidirectional recoverabil
 
 ## Repository status
 
-This repository is being progressively cleaned and expanded for the public research release. The current snapshot contains the key implementation components required to reproduce the core BFHD mechanism, together with the synthetic data generator and the conference poster.
+This repository is being progressively cleaned and expanded for the public research release. The current version contains the key implementation components required to reproduce the core BFHD mechanism, together with the synthetic data generator, conference poster, and presentation slides.
 
-The next planned update is a reorganized version of the **Supplementary Technical Material**, followed by a cleaner and more complete preliminary research code release with expanded docstrings, configuration notes, and usage documentation. Presentation slides will be added after the oral presentation.
+The official proceedings version of the paper is now available through IJCAI, including the final bibliographic metadata and DOI.
+
+The next planned update is a reorganized version of the **Supplementary Technical Material**, followed by a cleaner and more complete preliminary research code release with expanded docstrings, configuration notes, and runnable usage documentation.
 
 ## Release roadmap / TODO
 
@@ -32,10 +34,10 @@ The next planned update is a reorganized version of the **Supplementary Technica
 - [√] Release the synthetic data generator.
 - [√] Add the IJCAI-ECAI 2026 poster (PDF + README preview).
 - [√] Add the presentation slides (PDF) after the oral presentation.
+- [√] Update the citation with the official proceedings metadata / DOI when available.
 - [ ] Upload the reorganized **Supplementary Technical Material**.
 - [ ] Release the cleaned preliminary full codebase for experiments that can be shared under the relevant data-use constraints.
 - [ ] Expand docstrings, configuration descriptions, and runnable usage examples.
-- [ ] Update the citation with the official proceedings metadata / DOI when available.
 
 ## Important note on data
 
@@ -89,7 +91,20 @@ Example usage will be added as the repository is finalized.
 
 ## Citation
 
-Citation information will be updated once the official proceedings version is available.
+If you find BFHD useful in your research, please cite our paper:
+
+```bibtex
+@inproceedings{zhuo2026bfhd,
+  title     = {BFHD: Bidirectional Feature Harmonization Decomposition for Heterogeneous Clinical Assessments},
+  author    = {Zhuo, Yuanhao and Qin, Zixi and Qin, Ling and Li, Wanqing},
+  booktitle = {Proceedings of the Thirty-Fifth International Joint Conference on
+               Artificial Intelligence, {IJCAI-26}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  pages     = {7046--7054},
+  year      = {2026},
+  doi       = {10.24963/ijcai.2026/784},
+}
+```
 
 ## Contact
 
